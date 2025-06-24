@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000; /* fondo negro */
+  color: white; /* texto blanco */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #000;
+  color: violet; /* estilo Olivia Rodrigo */
+  padding: 20px 0;
+}
+
+main {
+  padding: 50px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #8a2be2;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #6a1bbf;
+}
+
+.imagenes {
+  margin-top: 40px;
+}
+
+.imagenes img {
+  width: 300px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #000;
+  color: white;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
